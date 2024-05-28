@@ -57,12 +57,13 @@ document.querySelector('#app').innerHTML = `
         </div>
 
         <div class="swiper-slide">
+        <br>
+        <br>
     <img class="food" src="https://apheiro.github.io/restaurant_page/41419795e2a2ad3f83b6.png">
    
        <h2>Pizza</h2>
        <hr>
        <div class="card">
-       <br>
   <p class="food-info">Lorem Ipsum is simply dummy text of the printing and
    typesetting industry. Lorem Ipsum has been the industry's standard dummy text
     ever since the 1500s, when an unknown printer took a galley of type and scrambled 
