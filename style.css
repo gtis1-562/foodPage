@@ -36,6 +36,7 @@ body {
 #header{
   /* background-color: royalblue; */
   width: 100%;
+  display: flex;
 }
 
 h1 {
@@ -71,8 +72,8 @@ cursor:default;
 
 
 .logo {
-  display: block;
   height: 5em;
+  width:  5em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;

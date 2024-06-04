@@ -5,9 +5,10 @@ import logo from './food-logo.png'
 document.querySelector('#app').innerHTML = `
 <div id="header">
 
-<a  target="_blank">
+    <a href="https://google.com">
       <img src="${logo}" class="logo" alt="Vite logo" />
     </a>
+  
 </div>
 
 
@@ -15,7 +16,7 @@ document.querySelector('#app').innerHTML = `
 <div class="swiper-wrapper">
 
      <div class="swiper-slide">
-     <img class="food" src="https://apheiro.github.io/restaurant_page/93420905b048d48e4c74.png">
+     <img class="food" src="https://apheiro.github.io/restaurant_page/93420905b048d48e4c74.png" alt="hot dog">
     <div class="information">
         <h2>Hot - Dog</h2>
         <hr>
@@ -30,7 +31,7 @@ document.querySelector('#app').innerHTML = `
       </div>
 
       <div class="swiper-slide">
-      <img class="food" src="https://apheiro.github.io/restaurant_page/ae3c0fb9558fca9ffeea.png">
+      <img class="food" src="https://apheiro.github.io/restaurant_page/ae3c0fb9558fca9ffeea.png" alt="Hamburger">
       <div class="information">
          <h2>Hamburger</h2>
          <hr>
@@ -45,7 +46,7 @@ document.querySelector('#app').innerHTML = `
        </div>
 
        <div class="swiper-slide">
-       <img class="food" src="https://apheiro.github.io/restaurant_page/f231df94bf646111906f.png">
+       <img class="food" src="https://apheiro.github.io/restaurant_page/f231df94bf646111906f.png" alt="French Fries">
        <div class="information">
           <h2>French Fries</h2>
           <hr>
@@ -62,7 +63,7 @@ document.querySelector('#app').innerHTML = `
         <div class="swiper-slide">
         <br>
         <br>
-    <img class="food pizza" src="https://apheiro.github.io/restaurant_page/41419795e2a2ad3f83b6.png">
+    <img class="food pizza" src="https://apheiro.github.io/restaurant_page/41419795e2a2ad3f83b6.png" alt="Pizza">
    <div class="information">
        <h2>Pizza</h2>
        <hr>
